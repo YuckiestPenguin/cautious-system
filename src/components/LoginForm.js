@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View} from 'react-native';
+import {TextInput} from 'react-native';
 import {Card, CardSection, Button} from "./common";
 
 class LoginForm extends Component {
