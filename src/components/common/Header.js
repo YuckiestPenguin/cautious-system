@@ -30,4 +30,4 @@ const styles = {
 };
 
 // Make component available everywhere
-export default Header;
+export {Header};

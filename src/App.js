@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
 import {View, Text} from 'react-native';
+import {Header} from './components/common'
 
 class App extends Component {
     render() {
         return (
-            <Text>Hello</Text>
+            <View>
+                <Header headerText="Auth"/>
+                <Text>App</Text>
+            </View>
         )
     }
 }
