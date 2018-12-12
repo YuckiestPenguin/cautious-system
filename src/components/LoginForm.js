@@ -6,8 +6,9 @@ class LoginForm extends Component {
     render() {
         return (
             <Card>
-                <CardSection/>
-                <CardSection/>
+                <CardSection>
+                    <TextInput style={{height: 20, width: '100%'}}/>
+                </CardSection>
                 <CardSection>
                     <Button>Login</Button>
                 </CardSection>
